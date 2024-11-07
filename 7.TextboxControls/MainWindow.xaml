@@ -1,0 +1,26 @@
+﻿<Window x:Class="_7.TextboxControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7.TextboxControls"       
+        xmlns:userControls="clr-namespace:_7.TextboxControls.View.UserControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--Här hämtar vi en färdig textbox genom återanvänding av kod -->
+        <userControls:ClearableTextbox Grid.Row="1" Width="250" Height="40" Placeholder="First Name"/>
+        <userControls:ClearableTextbox Grid.Row="2" Width="250" Height="40" Placeholder="Last Name"/>
+        <userControls:ClearableTextbox Grid.Row="3" Width="250" Height="40" Placeholder="Email"/>
+        <userControls:ClearableTextbox Grid.Row="4" Width="250" Height="40" Placeholder="Phone"/>
+        <Label Grid.Row="0" Content="Fyll i" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
