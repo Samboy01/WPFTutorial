@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.OpenFileDigalogs", "10.O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ListViews", "12.ListViews\12.ListViews.csproj", "{2D086467-0B2A-4972-B35B-454281882AF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ObservableCollectionListView", "13.ObservableCollectionListView\13.ObservableCollectionListView.csproj", "{102FC65B-05A2-4791-853F-9531D9676B6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2D086467-0B2A-4972-B35B-454281882AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D086467-0B2A-4972-B35B-454281882AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D086467-0B2A-4972-B35B-454281882AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102FC65B-05A2-4791-853F-9531D9676B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102FC65B-05A2-4791-853F-9531D9676B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102FC65B-05A2-4791-853F-9531D9676B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102FC65B-05A2-4791-853F-9531D9676B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
