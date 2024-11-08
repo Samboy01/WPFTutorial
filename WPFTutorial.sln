@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.GridBasics", "5.GridBasic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CustomControls", "6.CustomControls\6.CustomControls.csproj", "{49D88FC1-012D-4D09-B34D-2BCDCF61BD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.TextboxControls", "7.TextboxControls\7.TextboxControls.csproj", "{3C6E09AC-2DF3-4C3A-A262-A11410FB94B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.TextboxControls", "7.TextboxControls\7.TextboxControls.csproj", "{3C6E09AC-2DF3-4C3A-A262-A11410FB94B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.DataBindningsINotify", "8.DataBindningsINotify\8.DataBindningsINotify.csproj", "{B323A90E-ACC2-4CCB-A544-60E2820C50DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.DataBindningsINotify", "8.DataBindningsINotify\8.DataBindningsINotify.csproj", "{B323A90E-ACC2-4CCB-A544-60E2820C50DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.Messageboxes", "9.Messageboxes\9.Messageboxes.csproj", "{8470A5C9-6DA4-44FF-A1EB-67EA76887464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B323A90E-ACC2-4CCB-A544-60E2820C50DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B323A90E-ACC2-4CCB-A544-60E2820C50DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B323A90E-ACC2-4CCB-A544-60E2820C50DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8470A5C9-6DA4-44FF-A1EB-67EA76887464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8470A5C9-6DA4-44FF-A1EB-67EA76887464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8470A5C9-6DA4-44FF-A1EB-67EA76887464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8470A5C9-6DA4-44FF-A1EB-67EA76887464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
