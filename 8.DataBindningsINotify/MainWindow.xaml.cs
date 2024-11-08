@@ -11,6 +11,7 @@ namespace _8.DataBindningsINotify
         {
             // Sätter datakontexten till detta objekt (MainWindow)
             // så att UI kan binda till properties i denna klass
+            //
             DataContext = this;
             InitializeComponent();
         }
@@ -36,7 +37,7 @@ namespace _8.DataBindningsINotify
 
         private void btnSet_Click(object sender, RoutedEventArgs e)
         {
-            BoundText = "Set from code";
+            BoundText = "Sets from code";
         }
 
         private void OnPropertyChanged([CallerMemberName] string PropertyName = null)
