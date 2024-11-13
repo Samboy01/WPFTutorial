@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ObservableCollectionList
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.StackPanels", "15.StackPanels\15.StackPanels.csproj", "{5172E636-467F-4F6B-B279-83F38F47F9D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Gridsplitting", "14.Gridsplitting\14.Gridsplitting.csproj", "{3B86D4B2-5935-4970-B134-A65B0A86A56C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B86D4B2-5935-4970-B134-A65B0A86A56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B86D4B2-5935-4970-B134-A65B0A86A56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B86D4B2-5935-4970-B134-A65B0A86A56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B86D4B2-5935-4970-B134-A65B0A86A56C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
