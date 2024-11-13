@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.TextboxControls", "7.Text
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.DataBindningsINotify", "8.DataBindningsINotify\8.DataBindningsINotify.csproj", "{B323A90E-ACC2-4CCB-A544-60E2820C50DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.Messageboxes", "9.Messageboxes\9.Messageboxes.csproj", "{8470A5C9-6DA4-44FF-A1EB-67EA76887464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Messageboxes", "9.Messageboxes\9.Messageboxes.csproj", "{8470A5C9-6DA4-44FF-A1EB-67EA76887464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.OpenFileDigalogs", "10.OpenFileDigalogs\10.OpenFileDigalogs.csproj", "{A4D9DB16-A022-4D07-95BC-66BEAAB10AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.OpenFileDigalogs", "10.OpenFileDigalogs\10.OpenFileDigalogs.csproj", "{A4D9DB16-A022-4D07-95BC-66BEAAB10AB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ListViews", "12.ListViews\12.ListViews.csproj", "{2D086467-0B2A-4972-B35B-454281882AF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ObservableCollectionListView", "13.ObservableCollectionListView\13.ObservableCollectionListView.csproj", "{102FC65B-05A2-4791-853F-9531D9676B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.StackPanels", "15.StackPanels\15.StackPanels.csproj", "{5172E636-467F-4F6B-B279-83F38F47F9D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{102FC65B-05A2-4791-853F-9531D9676B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102FC65B-05A2-4791-853F-9531D9676B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{102FC65B-05A2-4791-853F-9531D9676B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5172E636-467F-4F6B-B279-83F38F47F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

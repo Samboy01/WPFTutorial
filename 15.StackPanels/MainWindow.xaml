@@ -1,0 +1,37 @@
+﻿<Window x:Class="_15.StackPanels.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15.StackPanels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!--StackPanel är en layoutbehållare som staplar sina
+        barnobjekt antingen vertikalt eller horisontellt -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Height="40" Width="75" Margin="2" Content="A" />
+            <Button Height="40" Width="75" Margin="2" Content="B" />
+            <Button Height="40" Width="75" Margin="2" Content="C" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Label"/>
+                <TextBox Width="150"/>
+                <Button Content="Go"/>
+            </StackPanel>
+            <TextBox Width="150" Height="30" Margin="2"/>
+            <TextBox Width="150" Height="30" Margin="2"/>
+            <TextBox Width="150" Height="30" Margin="2"/>
+            <TextBox Width="150" Height="30" Margin="2"/>
+            <TextBox Width="150" Height="30" Margin="2"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
