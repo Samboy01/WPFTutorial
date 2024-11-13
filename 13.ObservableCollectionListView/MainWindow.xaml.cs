@@ -21,9 +21,13 @@ namespace _13.ObservableCollectionListView
         public MainWindow()
         {
             DataContext = this;
-            InitializeComponent();
-        }
+            entries = new ObservableCollection<string>();
 
+            InitializeComponent();
+            
+        }
+        //Istället för att använda listview internal items Collection skapar vi en egen
+        //observable collection bunden till vår UI
         private ObservableCollection<string> entries;
 
         public ObservableCollection<string> Entries
@@ -35,17 +39,18 @@ namespace _13.ObservableCollectionListView
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            
+            Entries.Add(txtEntry.Text);
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            
+            string selectedItem = (string)lvEntries.SelectedItem;
+            Entries.Remove(selectedItem);
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            
+            Entries.Clear();
         }
     }
 }
