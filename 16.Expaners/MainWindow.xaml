@@ -1,0 +1,38 @@
+﻿<Window x:Class="_16.Expaners.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_16.Expaners"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        
+        
+        <StackPanel Background="LightBlue">
+          
+            <TextBlock Text="Name" FontSize="16"
+                       HorizontalAlignment="left" VerticalAlignment="Top"
+                       Margin="5"/>
+            
+            <Expander Header="More details">
+                <TextBlock Text="Description" FontSize="16"/>
+            </Expander>
+            
+            <Button x:Name="btnDetails" Width="100" Height="25" Content="Details"
+                    Click="btnDetails_Click" HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+        
+        <Expander Name="expanderDetails" Background="DarkGray" Grid.Column="1" 
+                  ExpandDirection="Left" BorderThickness="0" >
+            <Rectangle Fill="DarkGray" Width="125"/>
+        </Expander>
+        
+
+    </Grid>
+</Window>
