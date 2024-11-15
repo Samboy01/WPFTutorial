@@ -15,6 +15,6 @@
         </Grid.RowDefinitions>
         
         <!-- Menu -->
-        <userControls:MenuBar />
+        <userControls:MenuBar/>
     </Grid>
 </Window>
