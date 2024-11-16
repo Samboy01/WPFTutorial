@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.StackPanels", "15.StackP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.Gridsplitting", "14.Gridsplitting\14.Gridsplitting.csproj", "{3B86D4B2-5935-4970-B134-A65B0A86A56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.Expaners", "16.Expaners\16.Expaners.csproj", "{02F4983C-DB2B-4D6A-8510-64612F6E835F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.Expaners", "16.Expaners\16.Expaners.csproj", "{02F4983C-DB2B-4D6A-8510-64612F6E835F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.ScrollViewers", "17.ScrollViewers\17.ScrollViewers.csproj", "{D537B472-F279-4C9D-8925-35E540F434C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.ScrollViewers", "17.ScrollViewers\17.ScrollViewers.csproj", "{D537B472-F279-4C9D-8925-35E540F434C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.ApplicationWindow&Title", "18.ApplicationWindow&Title\18.ApplicationWindow&Title.csproj", "{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18.ApplicationWindow&Title", "18.ApplicationWindow&Title\18.ApplicationWindow&Title.csproj", "{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.OpeningWindowsShow", "19.OpeningWindowsShow\19.OpeningWindowsShow.csproj", "{83A54472-E74C-4612-8D0A-B0F549D451D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
