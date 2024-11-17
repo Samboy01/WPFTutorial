@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.ScrollViewers", "17.Scro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18.ApplicationWindow&Title", "18.ApplicationWindow&Title\18.ApplicationWindow&Title.csproj", "{FDCCECF2-10AB-42BA-B1D4-69DA326D9E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.OpeningWindowsShow", "19.OpeningWindowsShow\19.OpeningWindowsShow.csproj", "{83A54472-E74C-4612-8D0A-B0F549D451D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.OpeningWindowsShow", "19.OpeningWindowsShow\19.OpeningWindowsShow.csproj", "{83A54472-E74C-4612-8D0A-B0F549D451D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.ResuableStyleResource", "20.ResuableStyleResource\20.ResuableStyleResource.csproj", "{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83A54472-E74C-4612-8D0A-B0F549D451D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
