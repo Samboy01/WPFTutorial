@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.OpeningWindowsShow", "19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.ResuableStyleResource", "20.ResuableStyleResource\20.ResuableStyleResource.csproj", "{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.StylesAndControlTemplates", "21.StylesAndControlTemplates\21.StylesAndControlTemplates.csproj", "{A186556C-A144-4FD3-95ED-421387CAD66C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC877A28-63F4-4A8A-8E41-9B8C3B4B132F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A186556C-A144-4FD3-95ED-421387CAD66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A186556C-A144-4FD3-95ED-421387CAD66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A186556C-A144-4FD3-95ED-421387CAD66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A186556C-A144-4FD3-95ED-421387CAD66C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
