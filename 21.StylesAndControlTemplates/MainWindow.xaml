@@ -14,8 +14,9 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="#222222">
-                            
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
@@ -25,7 +26,10 @@
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#0052C1"/>
                 </Trigger>
-                
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                </Trigger>
+
             </Style.Triggers>
         </Style>
     </Window.Resources>
