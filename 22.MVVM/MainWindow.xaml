@@ -7,6 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <!--1. Model
+        Vad det är: Datan och logiken i din applikation
+        Exempel: En klass som representerar en student med egenskaper som namn och ålder
+        Ansvar: Håller reda på och hanterar data och logik    
+        -->
+        
+        <!--2. View
+        Vad det är: Det du ser på skärmen -gränssnittet
+        Exempel: En fönsterdesign eller knapp
+        Ansvar: Visar information till användaren ochskickar interaktioner vidare
+        till ViewModel
+        -->
+        
+        <!--ViewModel
+        Vad det är: Mellanhand mellan Model och View
+        Exempel: En klass som hämtar studentens namn från Model och gör
+        det redo för view att visa
+        Ansvar: Binder ihop Model och view
+        -->
+        
+        
     </Grid>
 </Window>

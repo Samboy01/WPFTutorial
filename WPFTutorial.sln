@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.ResuableStyleResource", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.StylesAndControlTemplates", "21.StylesAndControlTemplates\21.StylesAndControlTemplates.csproj", "{A186556C-A144-4FD3-95ED-421387CAD66C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.MVVM", "22.MVVM\22.MVVM.csproj", "{3AE82398-C975-4BD2-8FF1-17A3D850635A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.MVVM", "22.MVVM\22.MVVM.csproj", "{3AE82398-C975-4BD2-8FF1-17A3D850635A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.UsingViewModels", "23.UsingViewModels\23.UsingViewModels.csproj", "{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{3AE82398-C975-4BD2-8FF1-17A3D850635A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AE82398-C975-4BD2-8FF1-17A3D850635A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AE82398-C975-4BD2-8FF1-17A3D850635A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
