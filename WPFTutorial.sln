@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.MVVM", "22.MVVM\22.MVVM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.UsingViewModels", "23.UsingViewModels\23.UsingViewModels.csproj", "{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24.RelayCommand", "24.RelayCommand\24.RelayCommand.csproj", "{9C9910CE-5F5F-49DA-8150-81C0351F0FF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1C04F07-229D-48F0-B15A-CCFC9DADCCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9910CE-5F5F-49DA-8150-81C0351F0FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9910CE-5F5F-49DA-8150-81C0351F0FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9910CE-5F5F-49DA-8150-81C0351F0FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9910CE-5F5F-49DA-8150-81C0351F0FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
