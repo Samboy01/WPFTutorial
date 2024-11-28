@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _23.UsingViewModels.MVVM
 {
+    //INotify tillåter oss att kunna ändra på egenskaper till objekt dynamsikt i vår GUI
+    //Medan ObservableCollection tillåter oss att ändra själva objekten i en lista dynamiskt i vår GUI
     internal class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;

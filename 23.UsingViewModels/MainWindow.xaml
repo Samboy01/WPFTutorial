@@ -17,7 +17,7 @@
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
 
-            <DataGrid 
+            <DataGrid Grid.Column="0"
                 ItemsSource="{Binding Items}"
                 SelectedItem="{Binding SelectedItem}"
                 CanUserAddRows="False" CanUserDeleteRows="False"

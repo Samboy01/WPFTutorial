@@ -29,6 +29,8 @@ namespace _23.UsingViewModels.ViewModel
             });
         }
 
+        //I vår XAML har vi en binding denna Property
+        //När vi ändrar på en egenskap hos ett objekt så körs OnPropertyChanged
         private Item selectedItem;
         public Item SelectedItem
         {
